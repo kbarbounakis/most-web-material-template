@@ -1,3 +1,3 @@
 # most-web-material-template
 
-Most Web Framework Application Template Based on Google Material Design Lite
+Most Web Framework Application Template based on Google Material Design Lite
