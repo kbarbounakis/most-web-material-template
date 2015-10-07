@@ -1,0 +1,32 @@
+{
+  "name": "most-web-material-template",
+  "version": "0.1.0",
+  "description": "Most Web Framework Application Template Based on Google Material Design Lite",
+  "homepage": "http://themost.io/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kbarbounakis/most-web-material-template.git"
+  },
+  "keywords": [
+    "web",
+    "most",
+    "template",
+    "blog"
+  ],
+  "author": {
+    "name": "Kyriakos Barbounakis",
+    "email": "k.barbounakis@gmail.com"
+  },
+  "licenses": [
+    {
+      "type": "BSD-3 Clause"
+    }
+  ],
+  "dependencies": {
+    "most-web":"~1.7.0"
+  },
+  "main": "server",
+  "scripts": { },
+  "_id": "most-web-material-template@0.1.0",
+  "_from": "most-web-material-template@"
+}
