@@ -1,6 +1,7 @@
 body::before {
   background-size: cover;
   background-color: #2196f3;
+  background-image: url(images/let-it-shine.png);
   content: '';
   will-change: transform;
   z-index: -1;
