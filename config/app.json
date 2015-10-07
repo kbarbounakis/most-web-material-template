@@ -20,7 +20,16 @@
             "localizedContent": true
         }
     },
+    "adaptersTypes": [
+        { "name":"SQLite Data Adapter", "invariantName": "sqlite", "type":"most-data-sqlite" }
+    ],
     "adapters": [
+        {
+            "name": "local-db", "invariantName": "sqlite", "default": true,
+            "options": {
+                "database": "db/local.db"
+            }
+        }
     ],
     "mimes": [
         {

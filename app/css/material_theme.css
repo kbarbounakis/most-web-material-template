@@ -1,7 +1,6 @@
 body::before {
   background-size: cover;
-  background-color: #2196f3;
-  background-image: url(images/let-it-shine.png);
+  background: #212121 url(images/let-it-shine-wm.png);
   content: '';
   will-change: transform;
   z-index: -1;
@@ -13,6 +12,18 @@ body::before {
 }
 body {
   /* Fixes for IE 10 */
+}
+body .material-icons.md-18 {
+  font-size: 18px;
+}
+body .material-icons.md-24 {
+  font-size: 24px;
+}
+body .material-icons.md-36 {
+  font-size: 36px;
+}
+body .material-icons.md-48 {
+  font-size: 48px;
 }
 body .site-blog {
   font-family: 'Roboto', 'Helvetica', sans-serif;
@@ -92,6 +103,7 @@ body .site-blog .mdl-card__title a {
 body .site-blog .mdl-card__media {
   box-sizing: border-box;
   background-size: cover;
+  background-color: #ffb74d;
   padding: 24px;
   display: flex;
   flex-grow: 1;
@@ -196,7 +208,7 @@ body .site-blog .on-the-road-again .mdl-card__media {
   background-color: #fd971f;
 }
 body .site-blog .shopping .mdl-card__media {
-  background-color: #ff8f00;
+  background-color: #448aff;
 }
 body .site-blog .mdl-mini-footer {
   margin-top: 80px;

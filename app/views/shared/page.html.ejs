@@ -39,20 +39,14 @@
     <script type="text/javascript" src="/js/app.js"></script>
 </head>
 <body ejs-app="server" ng-app="main">
-<div class="site-blog mdl-layout mdl-js-layout has-drawer is-upgraded">
+<div class="site-blog site-blog--blogpost mdl-layout mdl-js-layout has-drawer is-upgraded">
     <main class="mdl-layout__content">
-        <div class="site-blog__posts mdl-grid">
-            <%- body %>
-            <nav class="site-nav mdl-cell mdl-cell--12-col">
-                <div class="section-spacer"></div>
-                <a href="javascript:void(0)" class="site-nav__button" title="show more">
-                    More
-                    <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-                        <i class="material-icons" role="presentation">arrow_forward</i>
-                    </button>
-                </a>
-            </nav>
+        <div class="site-back">
+            <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" href="/index.html" title="go back" role="button">
+                <i class="material-icons" role="presentation">arrow_back</i>
+            </a>
         </div>
+        <%- body %>
         <footer class="mdl-mini-footer">
             <div class="mdl-mini-footer--left-section">
                 <button class="mdl-mini-footer--social-btn social-btn social-btn__twitter">
@@ -76,5 +70,4 @@
     <div class="mdl-layout__obfuscator"></div>
 </div>
 </body>
-
 </html>

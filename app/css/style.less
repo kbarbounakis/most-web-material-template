@@ -2,7 +2,7 @@
 
 body::before {
     background-size: cover;
-  background: @palette-Purple-300 url(images/let-it-shine.png);
+  background: @palette-Grey-900 url(images/let-it-shine-wm.png);
   content: '';
     will-change: transform;
     z-index: -1;
@@ -14,6 +14,12 @@ body::before {
 }
 
 body {
+
+  .material-icons.md-18 { font-size: 18px; }
+  .material-icons.md-24 { font-size: 24px; }
+  .material-icons.md-36 { font-size: 36px; }
+  .material-icons.md-48 { font-size: 48px; }
+
     .site-blog {
         font-family: 'Roboto', 'Helvetica', sans-serif;
         .site-blog__posts {
@@ -97,6 +103,7 @@ body {
       .mdl-card__media {
         box-sizing: border-box;
         background-size: cover;
+        background-color: @palette-Orange-300;
         padding: 24px;
         display: flex;
         flex-grow: 1;
@@ -220,7 +227,7 @@ body {
       }
       .shopping {
         .mdl-card__media {
-          background-color: @palette-Amber-800;
+          background-color: @palette-Blue-A200;
         }
       }
       .mdl-mini-footer {
